@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="tierlist.html">Tier List</a>
+    <a href="contact.html">Contact Form</a>
+  </nav>
+
+  <h1>Snack Tier List Feedback</h1>
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="favorite">What is your favorite snack from the list?</label>
+    <input type="text" id="favorite" name="favorite" />
+
+    <label>Do you agree with Oreos being in the S-Tier?</label><br />
+    <input type="radio" id="agree" name="oreo_opinion" value="yes" />
+    <label for="agree">Yes</label><br />
+    <input type="radio" id="disagree" name="oreo_opinion" value="no" />
+    <label for="disagree">No</label><br /><br />
+
+    <label for="suggestion">Did we miss your favorite snack?</label>
+    <textarea id="suggestion" name="suggestion" rows="4"></textarea>
+
+    <label for="tier">Which tier do you think is most accurate?</label>
+    <select id="tier" name="tier">
+      <option value="S">S Tier</option>
+      <option value="A">A Tier</option>
+      <option value="B">B Tier</option>
+      <option value="C">C Tier</option>
+      <option value="D">D Tier</option>
+    </select>
+
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+</html>
