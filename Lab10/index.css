@@ -82,4 +82,8 @@ header {
   h1, h2 {
     color: #FF8C00;
   }
-  
+
+ pre {
+    color: #FF8C00;
+    font-weight: 700;
+  }
