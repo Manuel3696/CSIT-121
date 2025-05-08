@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>GIF Format</title>
+</head>
+<body>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    <span><h1>GIF Format</h1></span>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">HOME</a>
+            <a href="jpg.html">JPG Format</a>
+            <a href="png.html">PNG Format</a>
+            <a href="webp.html">WEBP Format</a> 
+        </div>
+    </div>
+    <img src="family.gif" alt="Animation example in GIF format">
+    <h2>Description of the Image</h2>
+    <p>This GIF image contains two main items, Spongebob and a huge letter F, both animated. In this picture, Spongebob is pointing at the letter F as he appears to say F is for Family. From the animated image, he seems to be excited with the concept of family.</p>
+    
+    <h2>Image File Type Information</h2>
+    <p>This image is a GIF (Graphics Interchange Format) type. GIFs are a bitmap image format that supports up to 256 colors and allows for simple animations through frame sequencing. GIFs are widely used for simple animations, icons, and graphics with limited color needs.</p>
+    <h2>Why I Chose the Image</h2>
+    <p>I picked this particular animation because it clearly demonstrates the unique capability of GIFs to display simple animations in a compact file size. The limited color palette also showcases how GIFs can be optimized for web use.</p>
+    <h2>Source</h2>
+    <p>GIF by: <a href="https://www.goodreads.com/topic/show/22102072-gif-fun" target="_blank">Ayathma</a></p>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
+</html>
